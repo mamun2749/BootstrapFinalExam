@@ -1,0 +1,296 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.default {
+    background-color: transparent;
+    border-color: transparent;
+}
+.navbar-transparen {
+	 background-color: transparent;
+    border-color: transparent;
+    padding-top: 3.5%;
+}
+.navbar-fixed-top {
+	position: absolute;
+	left: 7%;
+	right: 7%;
+}
+.top_background {
+	
+	background: url(header_background.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	max-height: 500px;
+	margin-bottom: 15%;
+	
+	
+	
+}
+.slider_section {
+	/*position: absolute;*/
+	padding-top: 12%;
+	top: 20%;
+}
+.slider_section img{
+	width: 100%;
+}
+.slider_idicetor {
+	top: 103%;
+}
+.slider_idicetor li{
+	background-color: #8e8585;
+	border: 1px solid #8e8585;
+	
+}
+.second-section{
+	padding-bottom: 4%;
+}
+.first_heading {
+	text-align: center;
+
+}
+.second_heading {
+	text-align: center;
+	padding-bottom: 3%;
+
+}
+.second_heading h1 {
+	font-size: 500%;
+	color: #444343;
+}
+.icon_size {
+	font-size: 200%;
+}
+.Second_icon {
+	
+	padding-top: 80%;
+}
+
+.cont_heading h1 {
+	font-size: 200%;
+	
+}
+.thard_background {
+	background: url(portfolio_background.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 7%;
+	padding-bottom: 7%;
+}
+.padding_bottom {
+	padding-bottom: 5%;
+}
+.padding_top {
+	padding-top: 5%;
+}
+.left_image {
+	width: 100%;
+	
+}
+.right_content {
+	position: relative;
+
+}
+.right_imagr {
+	width: 100%;
+
+}
+.mini_carosel {
+	position: absolute;
+	bottom: 0;
+	left: 21px;
+	width: 93.2%;
+}
+.mini_carosel img{
+	width: 100%;
+}
+.mini_caption {
+	top: 7px;
+}
+.forth-section{
+	background: #fff;
+	padding: 30px 0px;
+}
+input{
+	width: 100%;
+	margin-bottom: 20px;
+	background: #EBEBEB;
+	border: none;
+	padding: 10px;
+	box-shadow: 0 0 0 2px #dedcdc;
+	border-radius: 2px;
+}
+textarea{
+	width: 100%;
+	background-color: #EBEBEB;
+	border: none;
+	box-shadow: 0 0 0 2px #dedcdc;
+	border-radius: 2px;
+	margin-bottom: 20px;
+}
+button{
+	padding: 10px 30px;
+	color: #8F8F8F;
+	box-shadow: 0 0 0 2px #dedcdc;
+	border-radius: 2px;
+	border: none;
+}
+.formCustom{
+    font-family: FontAwesome, sans-serif;
+	background:rgba(0,0,0,.15);
+	}
+.sidetext h2{
+	font-size: 22px;
+	color: #797979;
+
+}
+.auhor_image {
+	box-shadow: 0 0 0 2px #dedcdc;
+	border-radius: 2px;
+	height: 210px;
+	width: 100%;
+}
+.sidetext p{
+	color: #616060;
+	font-size: 16px;
+	text-align: justify;
+}
+.contact p{
+	color: #848484;
+	font-size: 16px;
+	font-style: italic;
+	margin: 10px 0px;
+}
+.sociallink{
+	color: #444444;
+}
+.sociallink a{
+	text-decoration: none;
+	padding: 5px 15px;
+	font-style: italic;
+	font-size: 18px;
+	color: #848484;
+
+}
+.follow{
+	font-size: 18px;
+	color: #848484;
+}
+.footer_left p{
+	text-align: left;
+}
+.footer_icon {
+	text-align: right;
+}
+i.fa{
+	padding-right: 10px;
+}
+.footer-bg{
+	background: #fff;
+	padding: 20px 0px;
+	border-top: 2px solid #dedcdc;
+}
+.footer_sec {
+	
+	padding-top: 3%;
+	padding-bottom: 3%;
+	color: gray;
+}
+
+.padding_clear {
+	margin-right: 0;
+	margin-left: 0;
+	padding-right: 0
+	padding-left: 0;
+}
+
+
+
+
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+/* Small Devices, Tablets */
+   @media only screen and (max-width : 767px) {
+
+.navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: -12px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    }
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 0px 15px;
+    font-size: 11px;
+    line-height: 8px;
+	}
+.second-section{
+	padding-bottom: 4%;
+	background-color: #acc1b5;
+	}
+.second_heading h1 {
+    font-size: 180%;
+    color: #444343;
+	}
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 20px;
+    left: 15%;
+    z-index: 10;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+    font-size: 12px;
+	}
+.mini_carosel {
+    position: absolute;
+    bottom: 0;
+    left: 21px;
+    width: 89.2%;
+	}
+.text_justify {
+	text-align: justify;
+	}
+.padding {
+	padding: 7%;
+	}
+.forth-section {
+	background-color: #c0d0c6;
+	}
+button{
+	margin-bottom: 15%;
+	}
+.auhor_image {
+    width: 70%;
+	}
+.contact p {
+    padding-left: 20px;
+	}
+.follow {
+    font-size: 18px;
+    color: #848484;
+    padding-left: 20px;
+	}
+.footer_icon {
+    text-align: center;
+	}
+.footer-bg{
+	background: #28443a;
+	}
+}
